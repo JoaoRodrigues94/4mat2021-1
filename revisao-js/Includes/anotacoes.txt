@@ -1,0 +1,3 @@
+módulo --> forma de organizar o código, podendo criar vários arquivos em módulos diferentes,
+
+importar --> na pasta revisão.js criar um módulom
