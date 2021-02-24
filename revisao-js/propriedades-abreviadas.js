@@ -16,3 +16,17 @@ console.log(userInfo)
 let passadas = 39
 
 console.log({passadas})
+
+let ID = 5
+let produto = 'Pasta de dente'
+let preco = 2.35
+let quantidade = 5
+
+let mercado = {
+    ID,
+    mercadoria : produto,
+    preco: preco,
+    quantidade
+}
+
+console.log(mercado)

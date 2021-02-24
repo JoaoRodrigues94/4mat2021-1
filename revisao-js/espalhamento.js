@@ -45,9 +45,43 @@ function calcular(operacao, ...nums){
 // Caso seja passado um operador inválido será retornado um undefined.
 console.log(calcular('+', 15,19,12,32,-7,6))
 console.log(calcular('*', 15,19,12,32,-7,6))
+console.log(calcular('-', 15,19,12,32,-7,6))
+
 
 // Como chamar a função somaTudo() passando a ela os números do vetor maisNumeros?
 console.log(somaTudo(...maisNumeros))
 
 // Chamando calcular de forma semelhante
 console.log(calcular('+', ...maisNumeros))
+
+let periodo
+function controle(periodo){
+    switch(periodo){
+        case 1:
+            periodo = "manhã"
+            break
+        case 2:
+            periodo = "tarde"
+            break
+        case 3:
+            periodo = "noite"
+            break
+    }
+    return periodo
+}
+
+let med = 0
+let vet = []
+for(let i = 1; i <= 3; i++) {
+    const periodo = controle(i)
+    const val = Math.floor(Math.random() * 500 + 1)
+    console.log(periodo + ": " + val)
+
+    med += val 
+    vet[i-1] = val
+}
+media = (med / 3).toFixed(0)
+
+console.log("Média: " + media)
+console.log("Maior valor: " + Math.max(...vet))
+console.log("Menor valor: " + Math.min(...vet))

@@ -11,7 +11,7 @@ console.log(quadrado(7))
 
 // Uma função com essas características pode ser escrita de forma abreviada
 // da seguinte forma, com arrow function:
-// 1) A palavra function foi substituida pelo sinal => depos do parâmetro
+// 1) A palavra function foi substituida pelo sinal => depois do parâmetro
 // 2) Os parênteses em torno do parâmetro foram omitidos
 // 3) As chaves foram omitidas
 // 4) A palavra return foi omitido
