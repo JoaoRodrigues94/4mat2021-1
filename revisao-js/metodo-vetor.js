@@ -52,6 +52,7 @@ console.log('-----------------------------------------------')
 
 // filter(): retorna um novo vetor contendo apenas os elementos que
 // correspondem ao critério passado.
+// Caso não seja encontrado retorna um vetor vazio
 console.log(pets.filter(x => x.especie === 'cachorro'))
 console.log(pets.filter(x => x.idade > 20))
 
@@ -74,7 +75,7 @@ console.log('-----------------------------------------------')
 
 // reduce(): reduz um vetor de valores a um único valor.
 // Parâmetros:
-// acumulador: resultado parcial até o moemento
+// acumulador: resultado parcial até o momento
 // valor atual: o resultado correspondente ao elemento atual, que
 // integrará o acumulador.
 

@@ -54,7 +54,7 @@ console.log(somaTudo(...maisNumeros))
 // Chamando calcular de forma semelhante
 console.log(calcular('+', ...maisNumeros))
 
-let periodo
+//let periodo
 function controle(periodo){
     switch(periodo){
         case 1:

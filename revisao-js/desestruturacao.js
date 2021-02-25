@@ -1,6 +1,6 @@
 let numeros = [10,20,30] // vetor
 let carro = {
-    marca: 'Volkscagen',
+    marca: 'Volksvagen',
     modelo: 'Fusca',
     ano: 1969,
     cor: 'preto'

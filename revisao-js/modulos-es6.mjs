@@ -1,6 +1,7 @@
 // Importando módulos ES6
 
-// Quando o item é exportado com *export* na importação deve-se usar as chaves (desestruturação)
+// Quando o item é exportado com *export* na importação deve-se usar as chaves 
+//(desestruturação)
 // o . significado que estamos no arquivo atual.
 // a barra '/' significa alocalização.
 import { numeros } from './Includes/dados.mjs'
